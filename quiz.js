@@ -328,6 +328,9 @@
         <div class="cta-wrap">
           <a class="btn btn-primary" href="${outcome.ctaUrl}" target="_blank" rel="noopener">${outcome.ctaLabel}</a>
         </div>
+        <div class="secondary-wrap" id="secondary-wrap">
+          <button class="btn-link" id="secondary-btn">${outcome.secondaryLabel}</button>
+        </div>
       `;
     }
 
@@ -348,6 +351,8 @@
     if (outcome.ctaType === 'choice') {
       document.getElementById('choice-yes').addEventListener('click', () => onChoice(true));
       document.getElementById('choice-no').addEventListener('click', () => onChoice(false));
+    } else {
+      document.getElementById('secondary-btn').addEventListener('click', onSecondaryDismiss);
     }
   }
 
@@ -358,6 +363,11 @@
     const outcome = OUTCOMES[1];
     const msg = resourceAssistance ? outcome.choiceYesConfirm : outcome.choiceNoConfirm;
     document.getElementById('choice-wrap').innerHTML = `<p class="confirmation-msg">${msg}</p>`;
+  }
+
+  function onSecondaryDismiss() {
+    const outcome = OUTCOMES[state.outcome];
+    document.getElementById('secondary-wrap').innerHTML = `<p class="confirmation-msg">${outcome.secondaryConfirm}</p>`;
   }
 
   // ─── Main Render Dispatcher ─────────────────────────────────────────────────

@@ -49,6 +49,10 @@ const OUTCOMES = {
       "conversation we love — no pitch, just clarity.",
     ctaLabel: "Let's Figure It Out — Free 15 Min →",
     ctaUrl: CONFIG.outcome2CalendarUrl,
+    secondaryLabel: "Not ready to book yet",
+    secondaryConfirm:
+      "No problem — your results are already on their way to your inbox. " +
+      "Reach out whenever you're ready.",
   },
 
   3: {
@@ -70,6 +74,10 @@ const OUTCOMES = {
       "Free call. Specific agenda based on your results. No fluff.",
     ctaLabel: "Book Your Free AI Workflow Call →",
     ctaUrl: CONFIG.outcome3CalendarUrl,
+    secondaryLabel: "Not ready to book yet",
+    secondaryConfirm:
+      "No problem — your results are already on their way to your inbox. " +
+      "Reach out whenever you're ready.",
   },
 
   4: {
@@ -93,6 +101,10 @@ const OUTCOMES = {
       "written report with a prioritized action plan. Before we ever recommend a single tool.",
     ctaLabel: "Learn About the AI Audit →",
     ctaUrl: CONFIG.outcome4CalendarUrl,
+    secondaryLabel: "Not ready to book yet",
+    secondaryConfirm:
+      "No problem — your results are already on their way to your inbox. " +
+      "Reach out whenever you're ready.",
   },
 
 };

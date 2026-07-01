@@ -372,6 +372,24 @@ body {
   margin-bottom: 8px;
 }
 
+.secondary-wrap {
+  display: flex;
+  justify-content: center;
+}
+
+.btn-link {
+  min-height: 44px;
+  padding: 8px 12px;
+  background: none;
+  border: none;
+  font-family: inherit;
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--color-secondary);
+  text-decoration: underline;
+  cursor: pointer;
+}
+
 /* ─── Outcome 1 Choice ──────────────────────────────────────── */
 
 .choice-wrap {
