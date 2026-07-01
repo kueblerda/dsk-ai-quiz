@@ -9,13 +9,13 @@ const CONFIG = {
   // David is notified by GHL workflow when resourceAssistance = true.
 
   // Outcome 2: Soft 15-min clarity call (GHL calendar)
-  outcome2CalendarUrl: "PASTE_OUTCOME_2_CALENDAR_URL_HERE",
+  outcome2CalendarUrl: "https://api.leadconnectorhq.com/widget/booking/aiquiz-clarity-call",
 
   // Outcome 3: Free AI workflow call (GHL calendar)
-  outcome3CalendarUrl: "PASTE_OUTCOME_3_CALENDAR_URL_HERE",
+  outcome3CalendarUrl: "https://api.leadconnectorhq.com/widget/booking/aiquiz-workflow-call",
 
   // Outcome 4: AI audit consultation (GHL calendar or landing page)
-  outcome4CalendarUrl: "PASTE_OUTCOME_4_AUDIT_URL_HERE",
+  outcome4CalendarUrl: "https://api.leadconnectorhq.com/widget/booking/aiquiz-audit-consultation",
 
   // ─── DSK Brand Colors ───────────────────────────────────────────────────────
   colorPrimary:    "#4A6470",  // Slate Steel    — buttons, headers, progress bar

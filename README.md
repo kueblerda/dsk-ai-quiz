@@ -257,9 +257,18 @@ Completed: {{contact.aiquiz_completed_at}}
 
 ### 4.7 — Build Booking Calendars (3 total)
 
-- [ ] Outcome 2: "15-Minute Clarity Call" — soft, no-pitch framing
-- [ ] Outcome 3: "Free AI Workflow Call" — specific, results-focused
-- [ ] Outcome 4: "AI Audit Consultation" — high-value, professional framing
+- [x] Outcome 2: "15-Minute Clarity Call" — soft, no-pitch framing
+- [x] Outcome 3: "Free AI Workflow Call" — specific, results-focused
+- [x] Outcome 4: "AI Audit Consultation" — high-value, professional framing
+
+| Calendar | Duration | Calendar ID | Booking Widget URL |
+|---|---|---|---|
+| 15-Minute Clarity Call | 15 min | `fEyrDCz5KUAneZB2rLMN` | `https://api.leadconnectorhq.com/widget/booking/aiquiz-clarity-call` |
+| Free AI Workflow Call | 30 min | `gFsesjhjnaG4SPj1PgEl` | `https://api.leadconnectorhq.com/widget/booking/aiquiz-workflow-call` |
+| AI Audit Consultation | 45 min | `ZpHFZmoaQkArTmZeirGi` | `https://api.leadconnectorhq.com/widget/booking/aiquiz-audit-consultation` |
+
+Booking widget URLs are already wired into `config.js` (`outcome2CalendarUrl`,
+`outcome3CalendarUrl`, `outcome4CalendarUrl`).
 
 ---
 
