@@ -2,7 +2,7 @@ const CONFIG = {
 
   // ─── GHL Webhook ────────────────────────────────────────────────────────────
   // Copy Inbound Webhook URL from GHL Workflow trigger and paste here
-  ghlWebhookUrl: "PASTE_GHL_INBOUND_WEBHOOK_URL_HERE",
+  ghlWebhookUrl: "https://services.leadconnectorhq.com/hooks/Ajx524SyzDiGKS2SIEuY/webhook-trigger/rEzuCRpK8VMxJgESj1xw",
 
   // ─── CTA Links Per Outcome ──────────────────────────────────────────────────
   // Outcome 1: No external link — two-button resource choice renders inline.
